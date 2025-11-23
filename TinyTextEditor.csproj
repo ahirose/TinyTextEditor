@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Windows Forms アプリケーションとして設定 -->
+    <OutputType>WinExe</OutputType>
+
+    <!-- .NET 8.0 を使用（最新のLTS版） -->
+    <TargetFramework>net8.0-windows</TargetFramework>
+
+    <!-- Windows Forms を有効化 -->
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <!-- Null許容参照型を有効化（コードの安全性向上） -->
+    <Nullable>enable</Nullable>
+
+    <!-- 暗黙的なusing文を有効化 -->
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- アプリケーション情報 -->
+    <AssemblyName>TinyTextEditor</AssemblyName>
+    <RootNamespace>TinyTextEditor</RootNamespace>
+  </PropertyGroup>
+
+</Project>
